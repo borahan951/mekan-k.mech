@@ -35,17 +35,17 @@ class SpyBruterV1:
             colors = [31, 32, 33, 34, 35, 36, 37, 38, 39]
             x = """
 
-                     ____             _            
+   _____             ____             _            
                     |  _ \           | |           
-                    | |_) |_ __ _   _| |_ ___ _ __ 
+ |                 _| |_) |_ __ _   _| |_ ___ _ __ 
                     |  _ <| '__| | | | __/ _ \ '__|
-                    | |_) | |  | |_| | ||  __/ |   
+  _                 | |_) | |  | |_| | ||  __/ |   
                     |____/|_|   \__,_|\__\___|_|   
-                   |                              
- Kâh çıkarım gökyüzüne, seyrederim âlemi                                       :             
- Kâh inerim yeryüzüne, seyreder âlem beni                      
-                           CodedBy mekanık_mech
-                         instagram: mekanık_mech                       
+      
+                  
+                        CodedBy mekanik_mech
+                          instagram.com/mekanik_mech
+                                                  
     """
             for N, line in enumerate(x.split("\n")):
                 sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
